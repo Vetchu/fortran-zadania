@@ -3,6 +3,7 @@
 Zadanie pierwsze z kursu uniwersyteckiego Fortrana na  AGH to prosty program porównujący złożoność mnożenia macierzy na 4 sposoby w Fortranie.
 
 ###Struktura Projektu:###
+
 	CMakeLists.txt
 	README.md
 	skrypt.sh
@@ -57,18 +58,24 @@ Rozróżniamy następujące foldery:
 	* b - "lepsze" mnożenie macierzy
 	* d - mnożenie macierzy korzystając z fortranowego DOT_PRODUCT 
 	* e - mnożenie macierzy fortranową metodą biblioteczną matmul
+	
 ##Wykresy:##
 
 ###Wykres dla rozmiaru 4###
+
 ![](res/wykres4.png)
 ###Wykres dla rozmiaru 8###
+
 ![](res/wykres8.png)
+
 ###Wykres dla rozmiaru 16###
+
 ![](res/wykres16.png)
 
 //Adnotacja: wykres dla 16 mimo zastosowania zalecanych opcji gnuplota wychodzi jak powyżej, jak da się to poprawić to chętnie się dowiem, bo internet milczy.
 
 ##Testowanie##
+
 Do testowania używany jest skrypt.sh znajdujący się w głównym katalogu, zapisujący do katalogu res wyniki testów (czasy).
 Przykład użycia:
 
