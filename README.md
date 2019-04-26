@@ -40,7 +40,7 @@ Rozróżniamy następujące foldery:
 		zawiera zasoby generowane przez program w czasie pracy, jak również wykresy porównujące poszczególne algorytmy.
 	src/
 		zawiera kod źródłowy programu.
-	
+
 ### QuickSetup ###
 
 	$ git clone https://github.com/Vetchu/fortran-zadania
@@ -56,9 +56,9 @@ Rozróżniamy następujące foldery:
 * Dostępne są następujące typy:
 	* n - naiwne mnożenie macierzy
 	* b - "lepsze" mnożenie macierzy
-	* d - mnożenie macierzy korzystając z fortranowego DOT_PRODUCT 
+	* d - mnożenie macierzy korzystając z fortranowego DOT_PRODUCT
 	* e - mnożenie macierzy fortranową metodą biblioteczną matmul
-	
+
 ## Wykresy ##
 
 ### Wykres dla rozmiaru 4 ###
@@ -72,7 +72,6 @@ Rozróżniamy następujące foldery:
 
 ![](res/wykres16.png)
 
-Adnotacja: wykres dla 16 mimo zastosowania zalecanych opcji gnuplota wychodzi jak powyżej, jak da się to poprawić to chętnie się dowiem, bo internet milczy.
 
 ## Testowanie ##
 
@@ -80,7 +79,7 @@ Do testowania używany jest skrypt.sh znajdujący się w głównym katalogu, zap
 Przykład użycia:
 
 	$ bash skrypt.sh
-	
+
 ## Wnioski ##
 
 Poszczególne metody radzą sobie z różnym szczęściem z coraz większymi macierzami, matmul jest liderem przy mniejszych rozmiarach, natomiast przy dużych już wymiarach nieco lepiej sprawdza się "lepsze" mnożenie macierzy.

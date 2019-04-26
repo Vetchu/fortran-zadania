@@ -15,7 +15,7 @@ set ylabel "multiplication time" font "Arial ,14"
 set xtics font "Arial ,14"
 set ytics font "Arial ,14"
 set termoption dashed
-plot "n16"
+plot [10:1280][1E-5:1E+2] "n16"
 replot "b16"
 replot "d16"
 replot "e16"
