@@ -1,8 +1,8 @@
-# Fortran - Zadanie 1
+# Fortran - Zadanie 1 #
 
 Zadanie pierwsze z kursu uniwersyteckiego Fortrana na  AGH to prosty program porównujący złożoność mnożenia macierzy na 4 sposoby w Fortranie.
 
-###Struktura Projektu:###
+### Struktura Projektu ###
 
 	CMakeLists.txt
 	README.md
@@ -41,7 +41,7 @@ Rozróżniamy następujące foldery:
 	src/
 		zawiera kod źródłowy programu.
 	
-###QuickSetup###
+### QuickSetup ###
 
 	$ git clone https://github.com/Vetchu/fortran-zadania
 	$ cd fortran-zadania
@@ -59,28 +59,28 @@ Rozróżniamy następujące foldery:
 	* d - mnożenie macierzy korzystając z fortranowego DOT_PRODUCT 
 	* e - mnożenie macierzy fortranową metodą biblioteczną matmul
 	
-##Wykresy:##
+## Wykresy ##
 
-###Wykres dla rozmiaru 4###
+### Wykres dla rozmiaru 4 ###
 
 ![](res/wykres4.png)
-###Wykres dla rozmiaru 8###
+### Wykres dla rozmiaru 8 ###
 
 ![](res/wykres8.png)
 
-###Wykres dla rozmiaru 16###
+### Wykres dla rozmiaru 16 ###
 
 ![](res/wykres16.png)
 
-//Adnotacja: wykres dla 16 mimo zastosowania zalecanych opcji gnuplota wychodzi jak powyżej, jak da się to poprawić to chętnie się dowiem, bo internet milczy.
+Adnotacja: wykres dla 16 mimo zastosowania zalecanych opcji gnuplota wychodzi jak powyżej, jak da się to poprawić to chętnie się dowiem, bo internet milczy.
 
-##Testowanie##
+## Testowanie ##
 
 Do testowania używany jest skrypt.sh znajdujący się w głównym katalogu, zapisujący do katalogu res wyniki testów (czasy).
 Przykład użycia:
 
 	$ bash skrypt.sh
 	
-##Wnioski##
+## Wnioski ##
 
 Poszczególne metody radzą sobie z różnym szczęściem z coraz większymi macierzami, matmul jest liderem przy mniejszych rozmiarach, natomiast przy dużych już wymiarach nieco lepiej sprawdza się "lepsze" mnożenie macierzy.
